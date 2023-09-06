@@ -1,0 +1,68 @@
+.tree {
+  margin: 5% 0%;
+}
+
+ul {
+  list-style: none;
+}
+
+summary {
+  display: block;
+  padding: 2%;
+}
+
+.region-control {
+  margin: 2% 1%;
+  padding: 2% 3%;
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 1;
+  border: 2px solid #251749;
+}
+
+.form-control {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  gap: 0.5em;
+}
+
+.border {
+  border: 2px solid #251749;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #fffbeb;
+}
+
+input[value="full"]:checked::before {
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(1);
+}
+
+input[value="not empty"]:checked::before {
+  clip-path: inset(45% 15% 45% 15%);
+  transform: scale(1);
+}
+
+input[value="empty"]:checked::before {
+  transform: scale(0);
+}

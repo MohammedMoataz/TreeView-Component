@@ -1,0 +1,65 @@
+.add-country {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0%;
+}
+
+.add-country > button {
+  width: 24%;
+  padding: 1.5%;
+  border: none;
+  font-size: 15pt;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.add-country > button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.region-form {
+  display: flex;
+  padding: 3%;
+  justify-content: space-evenly;
+}
+
+.region-form > select {
+  width: 60%;
+  padding: 1%;
+  font-size: 12pt;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.region-form > select:focus {
+  outline: none;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.region-form > select:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.action-btns {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-btns > button {
+  width: 45%;
+  font-size: 13pt;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.action-btns > button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
