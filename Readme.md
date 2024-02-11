@@ -56,6 +56,18 @@ This project provides a customizable TreeView component that can be easily integ
 - Customize the component by modifying the React code in the frontend directory.
 - Update the server-side logic by modifying the Node.js code in the backend directory.
 
+## Development
+To contribute to the development of the TreeView component, follow these steps:
+1. Fork this repository.
+2. Clone the repository to your local machine.
+3. Install the dependencies by running npm install.
+4. Make your changes.
+5. Write tests to cover your changes.
+6. Run the tests by running npm test.
+7. Commit your changes.
+8. Push your changes to your forked repository.
+9. Open a pull request.
+
 ## Live Screenshots
 
 ![add_mutation](https://user-images.githubusercontent.com/81831838/209900116-cd8a65c6-227c-4323-a866-d48327401d35.jpg)
