@@ -39,7 +39,11 @@ This project provides a customizable TreeView component that can be easily integ
    
 2. Install dependencies:
    ```bash
-   npm install or npm install --legacy-peer-deps
+   npm install
+   
+   or
+
+   npm install --legacy-peer-deps
 
 3. Configure the database connection in server/.env file.
 
